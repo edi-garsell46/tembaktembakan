@@ -57,7 +57,7 @@ def slowprint(s):
 def main_menu():
        clear()
        slowprint(W + '#'*45)
-       slowprint(W + '     -== '+gt+'Menu Tembak Edi Garsell'+W+' ==-')
+       slowprint(W + '     -== '+gt+'MENU TEMBAK EDI GARSEL'+W+' ==-')
        slowprint(W + '#'*45)
        print(W + '# ' + str(time.strftime('%a, %d %B %Y')))
        print(W + '# Provider gsm Operator ' + C + str(os.popen('getprop gsm.operator.alpha').read().split('\n')[0]))
@@ -66,14 +66,14 @@ def main_menu():
        
        
        slowprint (gt+"Menu Pilihan:")
-       print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak XL dan Axis Work")
+       print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak XL dan Axis")
        print (gt+"  ["+p+"2"+gt+"] "+p+"Telkomsel")
        print (gt+"  ["+p+"3"+gt+"] "+p+"Waktu")
        print (gt+"  ["+p+"0"+gt+"] "+p+"Keluar")
       
     
     
-       choice = str(input(C+" Masukan Pilihan👉 "))
+       choice = str(input(C+" Masukan Pilihan Anda👉 "))
        exec_menu(choice)
        return
        slowprint(W + '# ' + str(time.strftime('%a, %d %B %Y')))
@@ -91,14 +91,14 @@ def exec_menu(choice):
     return
 
 def menu_1():
-   slowprint("loading")
+   slowprint("Loading")
    os.system('cd xlotp;python app.py')
 
 def menu_2():
-    slowaprint("loading")
+    slowaprint("Loading")
     os.system('cd tsel;python app.py')
 def menu_3():
-    slowprint("loading")
+    slowprint("Loading")
     os.system('sh jam.sh;python app.py')
     return os.system('python app.py')
 
