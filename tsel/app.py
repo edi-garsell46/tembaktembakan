@@ -39,7 +39,7 @@ def lodprint(s):
         sys.stdout.flush()
         time.sleep(7.0/90)
 
-garsell=(gt+"""
+edi=(gt+"""
 =======================================
  TEMBAK PAKET KUOTA BY: EDI GSRSEL
  MASIH DALAM TAHAP UJI COBA
@@ -56,7 +56,7 @@ l="Harap tunggu Boss.."
 
 def main_menu():
     clear()
-    slowprints(bintang)
+    slowprints(edi)
     print(p+"Telkomsel Menu" +
         "\nPilih Salah Satu:"
         "\n  [1] Minta kode otp" + 
