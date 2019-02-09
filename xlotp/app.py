@@ -41,7 +41,7 @@ def lodprint(s):
         sys.stdout.flush()
         time.sleep(7.0/90)
 
-garsell=(gt+"""
+edi=(gt+"""
  =======================================
  TEMBAK PAKET BY: EDI GARSEL
  MASIH DALAM TAHAP UJI COBA
@@ -57,7 +57,7 @@ l="Harap tunggu Boss.."
 
 def main_menu():
     clear()
-    slowprints(bintang)
+    slowprints(edi)
     print(p+
         "   Tembak Tembakan Edi" +
         "\n Pilih Salah Satu:"
@@ -84,14 +84,14 @@ def exec_menu(choice):
 def menu_1():
     lodprint(l)
     clear()
-    print(bintang)
+    print(edi)
     print(p+"Menu Tembak Paket XL dan Axis")
     msisdn = str(input("Masukan No Misal 62xx 👉 "))
     clear()
-    print(bintang)
+    print(edi)
     po = str(input(p+"Masukan Kode Otp 👉 "))
     clear()
-    print(bintang)
+    print(edi)
     print (p+" 1.Xtra Kuota 30GB Rp. 10.000")
     print (p+" 2.Xtra 3GB 30day 22.900 ")
     print (p+" 3.Xtra 5GB 30day 32.900 ")
@@ -174,7 +174,7 @@ def menu_1():
 def menu_2():
     lodprint(l)
     clear()
-    print(bintang)
+    print(edi)
     print(p+"Minta Kode Otp")
     msisdn = str(input("Masukan Nomor 62xx👉"))
     lodprint(l)
