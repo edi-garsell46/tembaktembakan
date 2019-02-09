@@ -44,7 +44,7 @@ edi=(gt+"""
  TEMBAK PAKET KUOTA BY: EDI GSRSEL
  MASIH DALAM TAHAP UJI COBA
  BILA INGIN DI UPDATE TIAP HARI
- SILAHKAN FOLLOW ACCOUNT SOSMED SAYA 
+ SILAHKAN FOLLOW ACCOUNT SAYA 
  DI BAWAH INI
  
  
@@ -52,7 +52,7 @@ edi=(gt+"""
  YouTube : Edi Garsell
  =======================================
 """)
-l="Harap tunggu Boss.."
+l="Loading Harap tunggu.."
 
 def main_menu():
     clear()
@@ -85,7 +85,7 @@ def menu_1():
 def menu_2():
     lodprint(l)
     clear()
-    print(bintang)
+    print(edi)
     print(m+"errrrrrrrrrroroorororororoororo")
     
 
