@@ -46,14 +46,14 @@ edi=(gt+"""
  TEMBAK PAKET BY: EDI GARSEL
  MASIH DALAM TAHAP UJI COBA
  BILA INGIN DI UPDATE TIAP HARI
- SILAHKAN FOLLOW ACCOUNT SOSMED SAYA 
+ SILAHKAN FOLLOW ACCOUNT SAYA 
  DI BAWAH INI
  
  Facebook: Edi
  YouTube : Edi Garsell
  =======================================
 """)
-l="Harap tunggu Boss.."
+l="Loading Harap tunggu.."
 
 def main_menu():
     clear()
@@ -114,7 +114,7 @@ def menu_1():
     print (p+" 20.Axis Bonus Younder Music")
     print (p+" 21.Nelpon AXIS UNLIMITED 30Hr")
     print (p+" 00.Manual service id")
-    pkt = str(input("Pilih Sesuai Keinginan >> "))
+    pkt = str(input("Silahkan Pilih Sesuai Ke inginan >> "))
     
     if pkt == '1':
         i = '8110577'
