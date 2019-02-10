@@ -9,4 +9,4 @@
    # git clone https://github.com/edi-garsell46/tembaktembakan.git
    # cd tembaktembakan
    # python dor.py
- # (tanpa tanda petik") lalu enter
+ # 
