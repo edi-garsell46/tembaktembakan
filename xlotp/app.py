@@ -43,11 +43,11 @@ def lodprint(s):
 
 edi=(gt+"""
  =======================================
- TEMBAK PAKET BY: EDI GARSEL
- MASIH DALAM TAHAP UJI COBA
- BILA INGIN DI UPDATE TIAP HARI
- SILAHKAN FOLLOW ACCOUNT SAYA 
- DI BAWAH INI
+ TEMBAK PAKET KUOTA
+ MASIH DALAM TAHAP UJI COBA BOSS
+ BILA INGIN DI UPDATE SETIAP HARI
+ SILAHKAN BOSS FOLLOW ACCOUNT SAYA 
+ DI BAWAH INI:
  
  Facebook: Edi
  YouTube : Edi Garsell
@@ -59,7 +59,7 @@ def main_menu():
     clear()
     slowprints(edi)
     print(p+
-        "   Tembak Tembakan Edi" +
+        "   Tembak Tembakan BOSS" +
         "\n Pilih Salah Satu:"
         "\n  [1] Menu Beli Paket" + 
         "\n  [2] Minta Otp Code" +
@@ -114,7 +114,7 @@ def menu_1():
     print (p+" 20.Axis Bonus Younder Music")
     print (p+" 21.Nelpon AXIS UNLIMITED 30Hr")
     print (p+" 00.Manual service id")
-    pkt = str(input("Silahkan Pilih Sesuai Ke inginan >> "))
+    pkt = str(input("Silakan Boss pilih sesuai ke inginan Anda >> "))
     
     if pkt == '1':
         i = '8110577'
